@@ -26,7 +26,7 @@ Currently, I use the AVR USB ISP Version 2.0 programmers purchased from [AliExpr
 All the programmers I've built and bought have a 10 pin (2x5) 0.1\" male header to expose the programmer pins.
 I have salvaged the gray 10 pin (2x5) to DB-9 ribbon cable from old PCs to use as AVR programmer cables.
 These cables usually only have 9 wires in them, the 10th wire is nc.
-![Internal PC Serial Cable](../img/pc_serial.png)
+![Internal PC Serial Cable](../img/pc_serial.png){: .center-block :}
 
 I cut off the DB-9 connector and attach female pins that mate with the standard 0.1\" header pins.
 I use this cable directly with AVR modules that already have the 6-pin (2x3) male ISP header.
