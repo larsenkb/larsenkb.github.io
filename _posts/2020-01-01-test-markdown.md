@@ -2,7 +2,7 @@
 layout: post
 title: Test Markdown
 subtitle: Each post also has a subtitle
-tags: [test markdown]
+tags: [test,markdown]
 comments: false
 ---
 
