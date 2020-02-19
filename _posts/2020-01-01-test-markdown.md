@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Test markdown
+title: Test Markdown
 subtitle: Each post also has a subtitle
-tags: [test]
+tags: [test markdown]
 comments: false
 ---
 
