@@ -29,6 +29,8 @@ These cables usually only have 9 wires in them, the 10th wire is nc.
 ![Internal PC Serial Cable](../img/pc_serial.png){: .center-block :}
 
 I cut off the DB-9 connector and attach female pins that mate with the standard 0.1\" header pins.
+![AVR cable](../img/avr_cable.png){: .center-block :}
+
 I use this cable directly with AVR modules that already have the 6-pin (2x3) male ISP header.
 I plug the cable into the header pin by pin.
 I use the same cable with proto boards usually in two different ways:  
