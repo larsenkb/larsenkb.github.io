@@ -4,7 +4,7 @@ title: About me
 subtitle: I am a retired electrical engineer
 ---
 
-Current interests:
+Current interests:  
 * AVR microprocessors and projects
 * ESP microprocessors and projects
 * STM32F103 (bluepill) microprocessors and projects
