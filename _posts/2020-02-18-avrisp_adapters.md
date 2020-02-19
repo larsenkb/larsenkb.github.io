@@ -37,4 +37,9 @@ I use the same cable with proto boards usually in two different ways:
 1. plug a 6-pin right angle 0.1\" header into the proto board and the other end into the female pins of the cable. Then I wire from AVR IC to the 6-pin right angle header.
 2. I insert male pins into the female pins of the cable which converts the cable from female to male. Then I plug each cable pin directly into the proto board at the IC pin location.
 
+I've made a few variations of the 6-pin adapter:  
+1. onde adapter has series resistors to help isolate the programmer from peripherals attached to the target AVR.
+2. My latest adapter has a reset button, a 5V to 3.3V LDO, and a jumper to isolate ISP VCC from target VCC, in case target is already powered. The order of the pins on this adapter was dictated by my lofi project. I included the 3.3V LDO for my lofi project because even though the tiny84a can run from 5V, the attached NRF24l01+ can not. I wanted to ensure I didn't accidently put 5V on the ISP VCC pin. ![adapter front](../img/avr_adapter_front.png){: .center-block :} ![adapter back](../img/avr_adapter_back.png){: .center-block :}
+
+The latest programmer adapter I've made is a pogo pin adapter for my lofi project that uses my designed PWBs. The ISP pads on the lofi board are on 0.05\" spaced pads in a 2x3 arrangment. The adapter from 2) above plugs into the clothes pin pogo adapter.
 
