@@ -23,11 +23,11 @@ $ rcp granpa:~/downloads/run.sh .
 $ docker build -t blynk .
 $ cd
 $ mkdir blynk-server-data
-$ docker run --name blynk-server -v ~/blunk-server-data:/data -p 8440:8440 -p 8080:8080 -p 9443:9443 -d blynk
+$ docker run --name blynk-server -v ~/blynk-server-data:/data -p 8440:8440 -p 8080:8080 -p 9443:9443 -d blynk
 ~~~
 That should create and start a blynk-server running in a docker container.
 I still need to figure out how to make it start running on power cycle.
-To manually start it runninng again:
+To manually start it running again:
 ~~~
 $ docker container start blynk-server
 ~~~
