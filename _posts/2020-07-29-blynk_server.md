@@ -6,7 +6,7 @@ tags: [mqtt,433Mhz,esp8266,blynk]
 comments: false
 ---
 
-In this post I am adding more features to my MQTT <--> 433MHz Bridge. I want to add a local Blynk server so that I can control my Zap outlets from the Blynk app and from Home Assistant, etc.
+In this post I am adding more features to my MQTT \<--\> 433MHz Bridge. I want to add a local Blynk server so that I can control my Zap outlets from the Blynk app and from Home Assistant, etc.
 
 This small post documents the steps taken to setup the blynk server on my local ODROID-XU4 server called 'omv'.
 This SBC also runs Home Assistant in docker containers and runs a MQTT broker.
@@ -152,4 +152,3 @@ ENV HARDWARE_MQTT_PORT=8440 \
 
 ENTRYPOINT ["/usr/local/bin/run.sh"]
 ~~~
-
