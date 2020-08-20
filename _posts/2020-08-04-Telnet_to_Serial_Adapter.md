@@ -17,6 +17,8 @@ Code is running on an ESP-01.
 I use this project to attach to headless Raspberry Pi's and Odroid SBC's when I need to troubleshoot and I can't ssh into them.
 I swapped only the TX pin. This ensures that ESP-01 bootup characters do not get injected into the Serial TX which would honk up the login.
 
+You can find the repo/code [here](https://github.com/larsenkb/telnet2serial)
+
 ## Pin connections
 
 I use jumper wires to connect the ESP-01 to the SBC serial port.
